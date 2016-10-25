@@ -8,7 +8,7 @@ var globe = new DAT.Globe( container );
 var xhr = new XMLHttpRequest();
 
 // Where do we get the data?
-xhr.open( 'GET', 'myjson.json', true );
+xhr.open( 'GET', 'data.json', true );
 
 // What do we do when we have it?
 xhr.onreadystatechange = function() {
